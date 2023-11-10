@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+       .height{
+        height: 100vh;
+       }
+       
+
+       .search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+
+       .search input{
+
+        height: 60px;
+        width: 700px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+        border-radius: 35px;
+        box-shadow:  25px 25px 41px #bababa,
+                    -25px -25px 41px #ffffff;
+        
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid #FFF3DA;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        right: 5px;
+        height: 62px;
+        width: 110px;
+        background: #FFF3DA;
+
+       }
+
+       .container .mainer{
+margin-left: 23%;
+margin-right: 23%;
+margin-top: 9%;
+
+       }
+
+       .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+        margin-top: 1%;
+        background-color: white;
+        top: 2%;
+        position: relative;
+        border-radius: 32px;
+        box-shadow:  25px 25px 41px #bababa,
+                    -25px -25px 41px #ffffff;
+    }
+
+    .menu{
+        width: 400px;
+        float: right;
+        height: 70px;
+        color: #000;
+    }
+
+    .logo{
+        color: black;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 5px
+    }
+
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+        
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+            
+    }
+
+    
+    ul li a:hover{
+        color: #ff7200;
+    }
+
+
+
+
+
+ 
+        .search{
+
+            border-radius: 25px;
+            box-shadow:  25px 25px 41px #bababa,
+            -25px -25px 41px #ffffff;
+        }
+        .card-footer{
+            bottom: 8%;
+        }
+        
+        /*cardes
+        .
+        .
+        .
+        .
+        ..
+        */
+
+        .flip-card {
+            background-color: transparent;
+            width: 250px;
+            height: 254px;
+            perspective: 1000px;
+            font-family: sans-serif;
+          }
+          
+          .title {
+            font-size: 1.5em;
+            font-weight: 900;
+            text-align: center;
+            margin: 0;
+          }
+          
+          .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+          }
+          
+          .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+          }
+          
+          .flip-card-front, .flip-card-back {
+            box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 1rem;
+          }
+          
+          .flip-card-front {
+            background: white;
+            color: rgb(255, 255, 255);
+          }
+          
+          .flip-card-back {
+            background: white;
+            color: white;
+            transform: rotateY(180deg);
+          }
+
+          .parent {
+            display: grid;
+            margin: 3%;
+            margin-top: 0%;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+        
+
+.event_organisers{
+
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 3%;
+}
+
+       
