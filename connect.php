@@ -2,7 +2,7 @@
 $db_server = "localhost";
 $db_user = "root";
 $db_pass = "password";
-$db_name = "login_handler";
+$db_name = "terra";
 $conn = "";
 
 // Get the current date and time
@@ -22,8 +22,8 @@ catch(mysqli_sql_exception){
 }
 if($conn){
 echo"You are connected!";
-$stmt = $conn->prepare("insert into accounts(firstname, lastname, email, password, date) values(?, ?, ?, ?, ?)");
-$stmt->bind_param("sssss", $firstname, $lastname, $email, $password,$currentDateTime);
+$stmt = $conn->prepare("insert into consumerlogin(firstname, lastname, email, password) values(?, ?, ?, ?)");
+$stmt->bind_param("ssss", $firstname, $lastname, $email, $password);
 $execval = $stmt->execute();
 echo $execval;
 echo "Registration successfully...";
